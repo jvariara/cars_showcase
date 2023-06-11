@@ -52,3 +52,15 @@ export interface ShowMoreProps {
     pageNumber: number
     isNext: boolean
 }
+
+export interface SearchParamsObjectProps {
+    manufacturer: string
+    year: number
+    fuel: string
+    limit: number
+    model: string
+}
+
+export interface SearchParamsProps {
+    searchParams: SearchParamsObjectProps
+}
